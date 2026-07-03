@@ -1,0 +1,140 @@
+body {
+
+    background: #0f172a;
+
+    color: #f8fafc;
+
+    min-height: 100vh;
+
+    font-family: "Segoe UI", sans-serif;
+}
+
+.navbar {
+
+    background: #111827;
+
+    border-bottom: 1px solid #334155;
+
+    box-shadow:
+            0 4px 15px rgba(0,0,0,.3);
+}
+
+.navbar-brand {
+
+    font-weight: 700;
+
+    font-size: 1.4rem;
+}
+
+.dashboard-title {
+
+    font-size: 3rem;
+
+    font-weight: 700;
+
+    color: white;
+}
+
+.dashboard-subtitle {
+
+    color: #94a3b8;
+}
+
+.dashboard-card {
+
+    background: #1e293b;
+
+    border-radius: 20px;
+
+    padding: 25px;
+
+    border: 1px solid #334155;
+
+    box-shadow:
+            0 10px 30px rgba(0,0,0,.35);
+
+    transition: .3s;
+
+    height: 180px;
+}
+
+.dashboard-card:hover {
+
+    transform: translateY(-5px);
+
+    box-shadow:
+            0 20px 40px rgba(0,0,0,.5);
+}
+
+.devices-card {
+
+    border-left:
+            6px solid #3b82f6;
+}
+
+.telemetry-card {
+
+    border-left:
+            6px solid #10b981;
+}
+
+.alert-card {
+
+    border-left:
+            6px solid #f59e0b;
+}
+
+.metric {
+
+    font-size: 4rem;
+
+    font-weight: 800;
+
+    margin-top: 10px;
+}
+
+.glass-card {
+
+    background: #1e293b;
+
+    border: 1px solid #334155;
+
+    border-radius: 20px;
+
+    padding: 25px;
+
+    box-shadow:
+            0 10px 25px rgba(0,0,0,.3);
+}
+
+.section-title {
+
+    color: white;
+
+    margin-bottom: 20px;
+}
+
+.table-dark {
+
+    --bs-table-bg: #1e293b;
+
+    --bs-table-border-color: #334155;
+
+    --bs-table-hover-bg: #334155;
+}
+
+.footer {
+
+    margin-top: 40px;
+
+    padding: 20px;
+
+    text-align: center;
+
+    color: #94a3b8;
+}
+
+#tempChart {
+
+    max-height: 350px;
+}
